@@ -4,42 +4,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>title</title>
+    <title>网页标题</title>
 </head>
 <body>
     <!-- 标题 -->
-    <h1>标题</h1> 
+    <h1>标题1</h1> 
+    <h2>表题2</h2>
+    <h3>表题3</h3>
+    <h4>标题4</h4>
+    <h5>标题5</h5>
+    <h6>标题6</h6>
+
     <!-- 段落 -->
-    <p>段落</p>
+    <p><strong>习近平</strong>：守初心担使命找差距抓落实<br/>确保主题教育取得扎扎实实的成效</p>
+    <p>习近平：守初心担使命找差距抓落实确保主题教育取得扎扎实实的成效</p>
+    <p><i>习近平：守初心担使命找差距抓落实确保主题教育取得扎扎实实的成效</i></p>
     <!-- 图片
+
     src 图片地址
+
     alt 图片的说明 图片加载不出来的时候展现的文案
+
     ../上一级
+
     .png  透明图片
-    .jpeg/jpg  不透明的
+    .jpeg/.jpg  不透明的
     .gif  动图
 
      -->
-    <img src="" alt="">
-    <!-- 超链接 -->
+    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559363215381&di=ac2e144e74deac1aa9e4dfe0022fb959&imgtype=0&src=http%3A%2F%2Finews.gtimg.com%2Fnewsapp_bt%2F0%2F8598120162%2F1000" alt="">
+    <img src="../fellows34/images/111.jpeg" alt="这是一张图片"><br/>
+    <img src="../fellows34/images/111.jpegqwewqe" alt="这是一张图片"><br/>
+
+    <!-- 超链接
+    href 跳转
+    target="_blank"  新窗口
+    -->
     <a href="https://baidu.com">超链接</a>
     <a href="https://baidu.com" target="_blank"> 新窗口超链接</a>
 
     <!-- 无序列表 -->
      <ul>
-        <li></li>
+        <li>列表1</li>
+        <li>列表2</li>
      </ul>
 
     <!-- 有序列表 -->
     <ol>
-        <li></li>
+        <li>列表1</li>
+        <li>列表2</li>
     </ol>
+    
+
+
+
     <!-- 强制换行 -->
     <br/>
+
 
     <!-- div+css布局 -->
     <div>div1</div>
     <span>span</span>
+    <!-- 块级元素      自己占一行
+        可以嵌套块级元素 和 行级元素
+    行级元素/行内元素   多个占一行    只可以嵌套行级元素
+    -->
+
+    <!-- 表单
+        action 表单提交时的动作
+    -->
+    <form action="">
+
+        <!-- 输入框 
+            value 表单默认值
+        -->
+        账号<input name="name" type="text" value="123"><br/>
+        <!-- type="password" 密码 -->
+        密码<input name="password" type="password"><br/>
+
+
+        <!-- 单选框 name值相同就是一组  name 填写项名称-->
+        性别
+        女<input name="sex" type="radio">
+        男<input name="sex" type="radio">
+
+        <label for="input1">女</label><input name="sex" type="radio" id="input1">
+        <label for="input2">男</label><input name="sex" type="radio" id="input2">
+
+
+        <br/>
+        <!-- 复选框 checked默认选中-->
+        香蕉<input type="checkbox" checked>
+        苹果<input type="checkbox" >
+        菠萝<input type="checkbox" checked>
+
+
+
+        <br/>
+        <!-- select+option    下拉框 option 下拉列表每一项-->
+        <select>
+            <option value="1">哈尔滨</option>
+            <option value="2">牡丹江</option>
+            <option value="3">大庆</option>
+        </select>
+
+        <br/>
+        <!-- 提交按钮 -->
+        <input type="submit">
+        <!-- 按钮 -->
+        <button>按钮</button>
+
+        <br/>
+        <!-- 文本域 cols列  rows 行-->
+        <textarea name="" id="" cols="10" rows="2"></textarea>
+
+
+
+    </form>
+
+
+
+    <br/>
+    <!-- 表格 border 边框  tr行 td列-->
+    <table border="1">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+    
+
+
+
+    </table>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     
 
